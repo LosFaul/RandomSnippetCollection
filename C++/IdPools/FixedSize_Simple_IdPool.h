@@ -22,11 +22,6 @@ public:
     inline u32 getFreeIdCount() {
         return poolSize - pointer;
     }                    
-
-                                  
-    inline u32 getFreeIdCount() {
-        return poolSize - pointer;
-    }        
                                   
                                   
     inline u32 acquire() {
