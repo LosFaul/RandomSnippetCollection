@@ -2,6 +2,7 @@
 
 // includes STL
 #include <string>
+#include <vector>
 
 
 namespace Filesystem {
