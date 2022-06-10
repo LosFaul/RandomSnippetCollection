@@ -31,12 +31,12 @@ public:
                                   
                                   
     inline u32 acquire() {
-        return id_pool[pointer++];
+        return pool[pointer++];
     }
                                   
                                   
     inline void release(u32 id) {
-        id_pool[--pointer] = id;
+        pool[--pointer] = id;
     }
                                                                    
 }
