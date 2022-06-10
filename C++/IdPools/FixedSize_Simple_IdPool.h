@@ -15,8 +15,7 @@ class FixedSize_Simple_IdPool {
 public:
     
     inline void init() {
-        std::iota(id_pool, &id_pool[pool_size], 0);
-        std::fill_n(id_data, pool_size, 0);
+        std::iota(pool, &pool[poolSize], 0);
     }
 
 
