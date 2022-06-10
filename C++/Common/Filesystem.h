@@ -1,3 +1,5 @@
+#pragma once
+
 #include "Defines.h"
 
 // includes STL
