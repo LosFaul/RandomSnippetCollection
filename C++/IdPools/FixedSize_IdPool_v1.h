@@ -82,12 +82,12 @@ public:
 	}
 
 
-	inline void setData(u32 id, u64 data) {
+	inline void setUserdata(u32 id, u64 data) {
 		id_userdata[id] = data;
 	}
 
 
-	inline u64 getData(u32 id) {
+	inline u64 getUserdata(u32 id) {
 		return id_userdata[id];
 	}
 
